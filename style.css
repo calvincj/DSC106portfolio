@@ -1,6 +1,7 @@
 html {
   --color-accent: oklch(65% 50% 250);
   accent-color: var(--color-accent);
+  color-scheme: light dark;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
   margin-inline: auto;
 }
 
-input, textarea, button {
+input, textarea, button, select {
   font: inherit;
 }
 
@@ -61,7 +62,7 @@ form button {
 /* CV page */
 .cv section, body > section {
   margin-block: 2em;
-  border-top: 1px solid oklch(80% 3% 200);
+  border-top: 1px solid oklch(50% 10% 200 / 40%);
   padding-top: 0.5em;
 }
 
@@ -95,9 +96,10 @@ body > section article > p {
 }
 
 nav {
+  --border-color: oklch(50% 10% 200 / 40%);
   display: flex;
   margin-bottom: 1em;
-  border-bottom: 1px solid oklch(80% 3% 200);
+  border-bottom: 1px solid var(--border-color);
 }
 
 nav a {
@@ -116,4 +118,17 @@ nav a.current {
 nav a:hover {
   border-bottom: 0.4em solid var(--color-accent);
   padding-bottom: 0.1em;
+  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
+}
+
+label.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+  font-family: inherit;
+}
+
+label.color-scheme select {
+  font-family: inherit;
 }
