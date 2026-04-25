@@ -59,6 +59,31 @@ form button {
   grid-column: 1 / -1;
 }
 
+/* GitHub profile stats */
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5em 1em;
+  text-align: center;
+  margin-block: 1em;
+}
+
+#profile-stats dt {
+  grid-row: 1;
+  font-size: 0.85em;
+  color: oklch(50% 0% 0);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+#profile-stats dd {
+  grid-row: 2;
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--color-accent);
+}
+
 /* CV page */
 .cv section, body > section {
   margin-block: 2em;

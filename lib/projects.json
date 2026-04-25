@@ -1,0 +1,74 @@
+[
+  {
+    "title": "DSC 106 Lab 1: Portfolio Setup",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built a personal portfolio website from scratch using HTML and CSS, including a homepage, projects page, CV, and contact form."
+  },
+  {
+    "title": "DSC 106 Lab 2: CSS Layout",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Styled the portfolio with Flexbox and CSS Grid, including a responsive projects grid and a well-structured contact form."
+  },
+  {
+    "title": "DSC 106 Lab 3: JavaScript & Data",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Added dynamic content loading using JavaScript, fetching project data from JSON and GitHub API data for the homepage."
+  },
+  {
+    "title": "DSC 80: Data Cleaning Pipeline",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built a data cleaning and feature engineering pipeline in Python using pandas to prepare a real-world dataset for machine learning."
+  },
+  {
+    "title": "DSC 80: Predictive Model",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Trained and evaluated classification models on a cleaned dataset, using cross-validation and hyperparameter tuning to maximize accuracy."
+  },
+  {
+    "title": "DSC 30: Data Structures",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Implemented core data structures (heaps, hash maps, BSTs) in Java and analyzed their time and space complexity."
+  },
+  {
+    "title": "DSC 40A: Theoretical Foundations",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Explored the mathematical foundations of data science including linear algebra, probability, and optimization for regression and classification."
+  },
+  {
+    "title": "DSC 10: Intro Data Science",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Completed exploratory data analysis projects using Python, pandas, and matplotlib to uncover insights from real-world datasets."
+  },
+  {
+    "title": "Pokémon Stats Explorer",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built an interactive data visualization tool to explore Pokémon stats and compare them across generations and types using Python."
+  },
+  {
+    "title": "UCSD Course Scheduler",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Developed a command-line tool to parse UCSD course offerings and suggest conflict-free schedules based on user preferences."
+  },
+  {
+    "title": "SQL Movie Database",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Designed and queried a relational movie database in SQL, writing complex joins and aggregations to answer analytical questions."
+  },
+  {
+    "title": "Climate Data Analysis",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Analyzed historical climate datasets to identify temperature trends over decades, visualized with interactive charts using D3.js."
+  }
+]
